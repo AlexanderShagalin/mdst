@@ -20,4 +20,4 @@ jobs:
     - name: make
       run: cd build;make;
     - name: execute
-      run: cd build;./fnctest;
+      run: cd build/tests;./test_1;./test_2;
